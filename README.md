@@ -62,6 +62,12 @@ In this repository, I will create basic Dice Game using DOM manipulation in Java
 
 
   - [x] Project Setup
+  - [x] Create JS file
+  - [x] Link JS file to HTML
+  - [x] Create Variables for DOM manipulation
+  - [x] Create a function for random number generation
+  - [x] Create Ternary operator for winner
+  - [x] Finish the project
 
 
   
