@@ -17,13 +17,13 @@ document.querySelector(".img2").setAttribute("src", "images/" + randomDiceImage2
 
 // Daha sonra kazananı belirlemek için basit bir ternary kullanabiliriz
 
-if (randomNumber === randomNumber2) {
-    document.querySelector("h1").innerHTML = "Draw ! 🫱🏻‍🫲🏻";
-}
-
 randomNumber > randomNumber2
     ? document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!"
     : document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
+
+if (randomNumber === randomNumber2) {
+    document.querySelector("h1").innerHTML = "Draw ! 🫱🏻‍🫲🏻";
+}
 
 // Veya uzun bir if else kullanabiliriz
 
